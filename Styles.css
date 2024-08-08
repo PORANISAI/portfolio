@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0066cc;
+}
+
+.name p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 5px;
+    color: #0066cc;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.experience-item, .education-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3, .education-item h3, .project-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.experience-item p, .education-item p, .project-item p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
